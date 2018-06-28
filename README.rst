@@ -11,7 +11,7 @@ acdh-django-handle
 .. image:: https://codecov.io/gh/acdh-oeaw/acdh-django-handle/branch/master/graph/badge.svg
     :target: https://codecov.io/gh/acdh-oeaw/acdh-django-handle
 
-A django app to create and manage handle-pids.
+A django app to create and manage handle-pids_.
 
 Documentation
 -------------
@@ -76,6 +76,7 @@ The package provides a management command to bulk create/register handle-pids. F
 .. code-block:: python
 
     from django.contrib.contenttypes.fields import GenericRelation
+    from handle.models import Pid
 
     ...
 
@@ -126,3 +127,4 @@ Tools used in rendering this package:
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`cookiecutter-djangopackage`: https://github.com/pydanny/cookiecutter-djangopackage
+.. _handle-pids: http://www.handle.net/
