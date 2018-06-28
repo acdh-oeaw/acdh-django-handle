@@ -5,18 +5,8 @@ acdh-django-handle
 .. image:: https://badge.fury.io/py/acdh-django-handle.svg
     :target: https://badge.fury.io/py/acdh-django-handle
 
-.. image:: https://travis-ci.org/acdh-oeaw/acdh-django-handle.svg?branch=master
-    :target: https://travis-ci.org/acdh-oeaw/acdh-django-handle
-
-.. image:: https://codecov.io/gh/acdh-oeaw/acdh-django-handle/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/acdh-oeaw/acdh-django-handle
-
 A django app to create and manage handle-pids_.
 
-Documentation
--------------
-
-The full documentation is at https://acdh-django-handle.readthedocs.io.
 
 Quickstart
 ----------
