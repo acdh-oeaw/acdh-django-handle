@@ -106,6 +106,13 @@ Features
 
 * Provides a management command to bulk create/register handle-pids for all instances of a model-class in your project.
 
+Build and publish
+-----
+
+.. code-block:: console
+
+    python setup.py sdist bdist_wheel
+    twine upload dist/*
 
 Credits
 -------
