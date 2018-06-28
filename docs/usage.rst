@@ -8,19 +8,6 @@ To use acdh-django-handle in a project, add it to your `INSTALLED_APPS`:
 
     INSTALLED_APPS = (
         ...
-        'handle.apps.HandleConfig',
+        'handle',
         ...
     )
-
-Add acdh-django-handle's URL patterns:
-
-.. code-block:: python
-
-    from handle import urls as handle_urls
-
-
-    urlpatterns = [
-        ...
-        url(r'^', include(handle_urls)),
-        ...
-    ]
